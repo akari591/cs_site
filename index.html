@@ -17,6 +17,10 @@
   <!-- themefy-icon -->
   <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
   
@@ -24,6 +28,18 @@
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+#kosugi{
+  font-family: 'Architects Daughter', cursive ;
+  font-weight: 800;
+  background: rgb(255,247,190);
+  color:#000;
+  height: auto;
+}
+  </style>
 </head>
 
 <body>
@@ -31,7 +47,9 @@
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <div id="kosugi">
+      <a class="navbar-brand font-tertiary h3" href="index.html">CS</a>
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
