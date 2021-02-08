@@ -30,3 +30,65 @@ VERSION:	Versoin Number
 @import 'templates/about';
 
 @import 'templates/portfolio';
+
+.primary-selectiom{
+  background-color: rgb(255,247,190) !important;
+}
+
+header{
+  nav{
+    a{
+      h1{
+        font-size: 40px;
+        color:black;
+      }
+    }
+  }
+}
+
+#navigation{
+ .navbar-nav{
+   .nav-item{
+     .nav-link{
+       color: black;
+     }
+   }
+ }
+}
+
+#parallax{
+    background-color: aliceblue;
+}
+
+#about{
+  p{
+    height: 8rem;
+    margin: 2rem 0;
+  }
+}
+
+#what{
+  .d-block{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    ul{
+      margin: 2rem 0;
+    }
+  }
+  img{
+    width: 70%;
+  }
+}
+
+#doing{
+  .card-img{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      width: 45%;
+    }
+  }
+}
