@@ -31,7 +31,13 @@ VERSION:	Versoin Number
 
 @import 'templates/portfolio';
 
-.primary-selectiom{
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.primary-selection{
   background-color: rgb(255,247,190) !important;
 }
 
@@ -44,6 +50,18 @@ header{
       }
     }
   }
+}
+
+body{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.title-font{
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.logo-font{
+  font-family: 'Architects Daughter', cursive;
 }
 
 #navigation{
@@ -92,3 +110,7 @@ header{
     }
   }
 }
+
+  .bg-footer-color{
+    background-color: rgb(56,63,82);
+  }

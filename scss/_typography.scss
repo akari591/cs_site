@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700');
 
 @font-face {
-  font-family: 'BwNistaInt-xBd';
   src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
   font-style: normal;
   font-display: swap;
@@ -10,7 +9,6 @@
 
 body {
   line-height: 1.2;
-  font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: $text-color;
@@ -21,7 +19,6 @@ p, .paragraph {
   color: $text-color;
   font-size: 15px;
   line-height: 1.8;
-  font-family: $primary-font;
   &-lg{
     font-size: 22px;
   }
@@ -29,7 +26,6 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
-  font-family: $secondary-font;
   line-height: 1.2;
 }
 

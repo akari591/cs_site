@@ -9,8 +9,10 @@ VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @font-face {
-  font-family: 'BwNistaInt-xBd';
   src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
   font-style: normal;
   font-display: swap;
@@ -18,7 +20,6 @@ VERSION:	Versoin Number
 
 body {
   line-height: 1.2;
-  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
@@ -29,7 +30,6 @@ p, .paragraph {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Roboto", sans-serif;
 }
 
 p-lg, .paragraph-lg {
@@ -38,7 +38,6 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
 
@@ -228,7 +227,6 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: "BwNistaInt-xBd";
 }
 
 .bg-cover {
@@ -335,14 +333,6 @@ a:hover {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.font-secondary {
-  font-family: "Playfair Display", serif !important;
-}
-
-.font-tertiary {
-  font-family: "BwNistaInt-xBd" !important;
 }
 
 .shadow {
@@ -938,13 +928,25 @@ blockquote {
   font-weight: bold;
 }
 
-.primary-selectiom {
+.primary-selection {
   background-color: #fff7be !important;
 }
 
 header nav a h1 {
   font-size: 40px;
   color: black;
+}
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.title-font {
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.logo-font {
+  font-family: 'Architects Daughter', cursive;
 }
 
 #navigation .navbar-nav .nav-item .nav-link {
@@ -989,5 +991,9 @@ header nav a h1 {
 
 #doing .card-img img {
   width: 45%;
+}
+
+.bg-footer-color {
+  background-color: #383f52;
 }
 /*# sourceMappingURL=style.css.map */

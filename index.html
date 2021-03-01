@@ -29,25 +29,25 @@
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-#kosugi{
-  font-family: 'Architects Daughter', cursive ;
-  font-weight: 800;
-  background: rgb(255,247,190);
-  color:#000;
-  height: auto;
-}
-  </style>
+ 
 </head>
 
 <body>
-  
+  <script>
+    $("body").quietflow({
+  theme : "bouncingBalls",
+  specificColors : [
+    "rgba(255, 10, 50, .5)",
+    "rgba(10, 255, 50, .5)", 
+    "rgba(10, 50, 255, .5)", 
+    "rgba(0, 0, 0, .5)"
+  ]
+})
+  </script>
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="index.html"><h1>CS</h1></a>
+    <a class="navbar-brand font-tertiary h3 logo-font" href="index.html"><h1>CS</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -97,7 +97,7 @@
   <div class="container">
     <div class="row justify-content-around" id="navigation">
       <div class="col-lg-12 text-center">
-        <h2 class="section-title">キャリアサポーターとは</h2>
+        <h2 class="section-title title-font">キャリアサポーターとは</h2>
       </div>
       <div class="col-lg-3 col-md-4 text-center">
         <img src="myimg/icon-questoin.png" alt="icon">
@@ -132,7 +132,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-title">CSで身につくもの</h2>
+        <h2 class="section-title title-font">CSで身につくもの</h2>
       </div>
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="card shadow text-center">
@@ -185,7 +185,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-title">キャリアサポーターってなに？</h2>
+        <h2 class="section-title title-font">キャリアサポーターってなに？</h2>
       </div>
       <div class="col-lg-12 col-md-6 mb-80" center>
         <div class="d-block">
@@ -210,7 +210,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">CSって何をするの？</h2>
+        <h2 class="section-title title-font">CSって何をするの？</h2>
       </div>
       <div class="col-md-4 mb-4 mb-md-0">
         <div class="card hover-shadow shadow">
@@ -255,7 +255,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">これまで</h2>
+        <h2 class="section-title title-font">これまで</h2>
       </div>
       <!--動画-->
     </div>
@@ -320,7 +320,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Facebook</h2>
+        <h2 class="section-title title-font">Facebook</h2>
       </div>
       <!--facebookリンク-->
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
@@ -372,7 +372,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">お問い合わせ</h2>
+        <h2 class="section-title title-font">お問い合わせ</h2>
       </div>
       <!--LINE@-->
       <div class="col-lg-8 mx-auto">
@@ -401,7 +401,7 @@
 <!-- /contact -->
 
 <!-- footer -->
-<footer class="bg-dark footer-section">
+<footer class="bg-footer-color footer-section">
   <div class="section">
     <div class="container">
       <div class="row">
