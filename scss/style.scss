@@ -74,10 +74,6 @@ body{
  }
 }
 
-#parallax{
-    background-color: aliceblue;
-}
-
 #about{
   p{
     height: 8rem;
@@ -111,6 +107,24 @@ body{
   }
 }
 
+#history{
+  .video{
+    text-align: center;
+    video{
+     height: 50%;
+     width: 50%;
+    }
+  }
+}
+
   .bg-footer-color{
     background-color: rgb(56,63,82);
+  }
+
+  .layer-bg{
+    height: 100%;
+  }
+
+  .row{
+    width: 100%;
   }

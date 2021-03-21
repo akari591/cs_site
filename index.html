@@ -27,24 +27,10 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-
  
 </head>
 
 <body>
-  <script>
-    $("body").quietflow({
-  theme : "bouncingBalls",
-  specificColors : [
-    "rgba(255, 10, 50, .5)",
-    "rgba(10, 255, 50, .5)", 
-    "rgba(10, 50, 255, .5)", 
-    "rgba(0, 0, 0, .5)"
-  ]
-})
-  </script>
-
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand font-tertiary h3 logo-font" href="index.html"><h1>CS</h1></a>
@@ -259,7 +245,10 @@
       </div>
       <!--動画-->
     </div>
-    <div class="row shuffle-wrapper">
+    <div class="video">
+      <video preload="none" src="video/活動報告.mp4" poster="images/2月会スライド.jpg"   controls></video>
+    </div>
+    <!--<div class="row shuffle-wrapper">
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
@@ -310,62 +299,23 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </section>
 <!-- /portfolio -->
 
-<!-- blog -->
+<!-- Facebook -->
 <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
         <h2 class="section-title title-font">Facebook</h2>
-      </div>
-      <!--facebookリンク-->
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
-          <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-            </h4>
-            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et
-              dolore magna aliqua.</p>
-            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-          </div>
-        </article>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb">
-          <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-            </h4>
-            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et
-              dolore magna aliqua.</p>
-            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-          </div>
-        </article>
-      </div>
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-        <article class="card shadow">
-          <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
-          <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
-            </h4>
-            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et
-              dolore magna aliqua.</p>
-            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
-          </div>
-        </article>
+         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcareer.kyusyu&tabs=timeline&width=800&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       </div>
     </div>
   </div>
 </section>
-<!-- /blog -->
+<!-- /Facebok -->
 
 <!-- contact -->
 <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png" id="contact">
@@ -430,7 +380,7 @@
 <!-- /footer -->
 
 <!-- jQuery -->
-<script src="plugins/jQuery/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- Bootstrap JS -->
 <script src="plugins/bootstrap/bootstrap.min.js"></script>
 <!-- slick slider -->
@@ -440,6 +390,20 @@
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="lib/quietflow.js"></script>
+  <script>
+$(".layer-bg").quietflow({
+  theme : "bouncingBalls",
+  specificColors : [
+    "rgba(255, 10, 50, .5)",
+    "rgba(10, 255, 50, .5)", 
+    "rgba(10, 50, 255, .5)", 
+    "rgba(246, 159, 20, .5)"
+  ]
+})
+  </script>
 
 </body>
 </html>
